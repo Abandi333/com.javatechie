@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8080
-ADD target/Docker-integration.jar Docker-Integration.jar
-ENTRYPOINT ["java","-jar","Docker-jenkins integration.jar"]
+ADD target/docker-integration.jar docker-Integration.jar
+ENTRYPOINT ["java","-jar","docker-jenkins integration.jar"]
